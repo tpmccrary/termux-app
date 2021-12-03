@@ -59,6 +59,9 @@ final class TermuxInstaller {
 
     private static final String LOG_TAG = "TermuxInstaller";
 
+    private TermuxInstaller() {
+    }
+
     /** Performs bootstrap setup if necessary. */
     static void setupBootstrapIfNeeded(final Activity activity, final Runnable whenDone) {
         String bootstrapErrorMessage;

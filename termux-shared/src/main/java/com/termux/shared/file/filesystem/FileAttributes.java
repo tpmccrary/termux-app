@@ -42,7 +42,7 @@ import java.util.HashSet;
  * https://cs.android.com/android/platform/superproject/+/android-11.0.0_r3:libcore/ojluni/src/main/java/sun/nio/fs/UnixFileAttributes.java
  */
 
-public class FileAttributes {
+public final class FileAttributes {
     private String filePath;
     private FileDescriptor fileDescriptor;
 

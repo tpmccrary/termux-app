@@ -18,7 +18,7 @@ public class TerminalRowTest extends TestCase {
 	/** Unicode Character 'MUSICAL SYMBOL G CLEF OTTAVA ALTA' (U+1D11F). Two java chars required for this. */
 	private static final int TWO_JAVA_CHARS_DISPLAY_WIDTH_ONE_2 = 0x1D11F;
 
-	private final int COLUMNS = 80;
+	private static int COLUMNS = 80;
 
 	/** A combining character. */
 	private static final int DIARESIS_CODEPOINT = 0x0308;

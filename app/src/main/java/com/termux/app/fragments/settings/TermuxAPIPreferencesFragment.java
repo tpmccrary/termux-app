@@ -29,14 +29,11 @@ public class TermuxAPIPreferencesFragment extends PreferenceFragmentCompat {
 
 class TermuxAPIPreferencesDataStore extends PreferenceDataStore {
 
-    private final Context mContext;
-    private final TermuxAPIAppSharedPreferences mPreferences;
 
     private static TermuxAPIPreferencesDataStore mInstance;
 
     private TermuxAPIPreferencesDataStore(Context context) {
-        mContext = context;
-        mPreferences = TermuxAPIAppSharedPreferences.build(context, true);
+        TermuxAPIAppSharedPreferences.build(context, true);
     }
 
     public static synchronized TermuxAPIPreferencesDataStore getInstance(Context context) {
