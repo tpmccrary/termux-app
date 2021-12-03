@@ -2,7 +2,7 @@ package com.termux.app.terminal;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.content.ActivityNotFoundException;
+
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;

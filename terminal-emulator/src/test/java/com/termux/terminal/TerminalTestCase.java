@@ -70,7 +70,10 @@ public abstract class TerminalTestCase extends TestCase {
 
 		@Override
 		public boolean equals(Object o) {
-			if (!(o instanceof ChangedTitle)) return false;
+			if (!(o instanceof ChangedTitle))
+		 	{
+				return false;
+			} 
 			ChangedTitle other = (ChangedTitle) o;
 			return Objects.equals(oldTitle, other.oldTitle) && Objects.equals(newTitle, other.newTitle);
 		}

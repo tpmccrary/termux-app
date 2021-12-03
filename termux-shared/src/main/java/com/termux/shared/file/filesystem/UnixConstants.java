@@ -136,7 +136,7 @@ public class UnixConstants {
 
     // S_IAMB are access mode bits, therefore, calculated by taking OR of all the read, write and
     // execute permissions bits for owner, group and other.
-    private static int get_S_IAMB() {
+    private static int getSIAMB() {
         return (OsConstants.S_IRUSR | OsConstants.S_IWUSR | OsConstants.S_IXUSR |
             OsConstants.S_IRGRP | OsConstants.S_IWGRP | OsConstants.S_IXGRP |
             OsConstants.S_IROTH | OsConstants.S_IWOTH | OsConstants.S_IXOTH);
